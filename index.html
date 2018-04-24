@@ -1,7 +1,39 @@
 <html>
+<head>
+<title>Radio Buttons and Checkboxes</title>
+</head>
 <body>
 
-Contacts web application.  Lots of work to do.  
- 
+<h3>Forms Example</h3>
+
+<p>Register Below</p>
+
+<form action="process.php" method="POST">
+
+
+        Username: <input type="text" name="username" />
+        <p></p>
+        Passsword: <input type="password" name="password" />
+        <p></p>
+
+        Gender:
+        <br>
+        <input type ="radio" name="gender" /> Male
+        <br>
+        <input type ="radio" name="gender" /> Female
+        <p></p>
+
+        Favorite Food (Check all that apply)
+        <p></p>
+        <input type="checkbox" name="chicken" /> Chicken
+        <input type="checkbox" name="burger" /> Burger
+        <input type="checkbox" name="salad" /> Salad
+        <input type="checkbox" name="fruit" /> Fruit
+        <p></p>
+
+        <input type="submit" name="submit" value="Register" />
+
+
+</form>
 </body>
 </html>
